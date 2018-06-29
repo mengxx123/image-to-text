@@ -95,9 +95,7 @@ export default class App extends React.Component {
           <h1 className="text-center">图片转字符画工具</h1>
         </header>
         {/* github fork me ribbons */}
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kainstar/image-to-text">
-          <img style={{position: 'absolute', top: 0, right: 0, border: 0}} src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"/>
-        </a>
+      
         <Divide/>
         <Row className="transform-settings-wrapper">
           <TransformSetting label="目标图片宽度:" labelFor="transform-size">
